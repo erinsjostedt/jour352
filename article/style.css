@@ -1,0 +1,28 @@
+body {
+    font-family:'Times-New-Roman', Times, serif;
+    font-size: 15px;
+    line-height: 1.25;
+    background-color:#5f6a6a;
+}
+
+h1 {
+    color: black;
+    font-size: 3em;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.callout {
+    background-color: #7f8c8d ;
+    padding: 1em;
+    font-size: 1em;
+    line-height: 1.5;
+    color: black;
+}
+.callout-info {
+    background-color: #a2adad;
+    border-color: black;
+
+}
+
+.callout-warning {
+    background-color: #7c6148;
+}
