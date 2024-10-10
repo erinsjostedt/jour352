@@ -1,0 +1,110 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #BB9E83;
+    color: black;
+}
+
+header {
+    background-color: #715C49;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav h1 {
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    margin-top: 80px;
+    padding: 50px;
+    text-align: center;
+    background-color: #2F5387;
+    color: white;
+}
+
+.about, .portfolio, .contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #BB9E83;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-placeholder {
+    background-color: #715C49;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #715C49;
+}
+
+form button {
+    background-color: #2F5387;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #2F5387;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #715C49;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
