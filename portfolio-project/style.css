@@ -1,26 +1,29 @@
 
+header {
+    background-color: #715C49;
+    padding: 20px;
+    text-align: center;  
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background-color: #BB9E83;
     color: black;
-}
-
-header {
-    background-color: #715C49;
-    padding: 20px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
+    float: left;
+} 
 
 nav h1 {
     display: inline-block;
     color: white;
-    font-size: 24px;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 0;
+
 }
 
 nav ul {
@@ -28,7 +31,6 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    float: right;
 }
 
 nav ul li {
@@ -42,13 +44,22 @@ nav ul li a {
     font-size: 18px;
 }
 
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+
 .hero {
-    margin-top: 80px;
+    margin-top: 0px;
     padding: 50px;
     text-align: center;
     background-color: #2F5387;
     color: white;
+    
 }
+
 
 .about, .portfolio, .contact {
     padding: 50px;
@@ -108,3 +119,4 @@ footer {
     color: white;
     text-align: center;
 }
+

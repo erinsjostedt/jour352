@@ -7,18 +7,21 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+    
+
 </head>
 <body>
-    <header>
+    <header> <div class="sticky-top"></div>
         <nav>
-            <h1>Erin Sjostedt</h1>
+            <strong><h1>Erin Sjostedt</h1>  </strong> 
+
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#photography">Photography</a></li>
@@ -29,11 +32,16 @@
     </header>
 
     <section id="home" class="hero">
-        <img src="placeholder-hero.jpg" alt="Hero Image Placeholder">
-        <div class="intro-text">
-            <h2>Hello, my name is Erin Sjostedt.</h2>
-            <p>I am a passionate photojournalist and reporter based out of College Park, MD. I am currently obtaining my bachelors in Journalism from the University of Maryland, and I am also working on photography and reporting freelance! I am a hard worker and a team player, please reach out for anything using the contact below!</p>
+        <div class="intro-text" class="container" text-align="center" float="left"> 
+            <div class="Image">
+                <img src="img/erin-portfolio.jpg" alt="erin-portfolio" width="420" height="600">   
+            </div>
+            <div class="text">
+                <h2>Hello, my name is Erin Sjostedt.</h2>
+                <p>I am a passionate photojournalist and reporter based out of College Park, MD. I am currently obtaining my bachelors in Journalism from the University of Maryland, and I am also working on photography and reporting freelance! I am from all over, as a grew up in a military family, but everywhere I go I find a new passion for storytelling and spreading kindness. Everyone has a story to tell, whether you think it is improtant or not. I am a hard worker and a team player, so please let me help you tell your story. Reach out for anything using the contact below!</p>
+            </div>  
         </div>
+        
     </section>
 
     <section id="about" class="about">
@@ -46,13 +54,30 @@
     <section id="photography" class="portfolio">
         <h2>Photography Portfolio</h2>
         <div class="portfolio-grid">
-            <!-- Add project images here -->
-            <div class="project-placeholder">Project 1</div>
-            <div class="project-placeholder">Project 2</div>
-            <div class="project-placeholder">Project 3</div>
+            <img src="portfolio-project1.jpg" alt="portfolio-project1" width="450" height="600">
+            <img src="portfolio-project2.jpg" alt="portfolio-project2" width="450" height="600">
+            <img src="portfolio-project3.jpg" alt="portfolio-project3" width="450" height="600">
+            <img src="portfolio-project4.jpg" alt="portfolio-project4" width="450" height="600">
+            <img src="portfolio-project5.jpg" alt="portfolio-project5" width="450" height="600">
+            <img src="portfolio-project6.jpg" alt="portfolio-project6" width="450" height="600">
+            <img src="portfolio-project7.jpg" alt="portfolio-project7" width="450" height="600">
+            <img src="portfolio-project8.jpg" alt="portfolio-project8" width="450" height="600">
+            <img src="portfolio-project9.jpg" alt="portfolio-project9" width="450" height="600">
+            <img src="portfolio-project10.jpg" alt="portfolio-project10" width="450" height="600">
+            <img src="portfolio-project11.jpg" alt="portfolio-project11" width="450" height="600">
+            <img src="portfolio-project12.jpg" alt="portfolio-project12" width="450" height="600">
         </div>
-        <!-- Add space for up to 50 images -->
     </section>
+
+    <section id="published-works" class="portfolio"> 
+        <h2>Published Works</h2>
+        <div class="portfolio-grid"> 
+
+        </div> 
+    </section>
+
+        
+
 
     <section id="contact" class="contact">
         <h2>Contact</h2>
