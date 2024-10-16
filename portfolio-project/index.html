@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,25 +17,26 @@
 
 </head>
 <body>
-    <header> <div class="sticky-top"></div>
-        <nav>
-            <strong><h1>Erin Sjostedt</h1>  </strong> 
-
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#photography">Photography</a></li>
-                <li><a href="#published-works">Published Works</a></li>
-                <li><a href="#resume">Resume</a></li>
+    <header class="sticky-top">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-3">
+                <strong><h1>Erin Sjostedt</h1></strong> 
+            </div>
+            <nav class="col-md-3">
+                <a href="#home">Home</a>
+                <a href="#photography">Photography</a>
+                <a href="#published-works">Published Works</a>
+                <a href="#resume">Resume</a>
             </ul>
-        </nav>
+            </nav>          
     </header>
 
     <section id="home" class="hero">
-        <div class="intro-text" class="container" text-align="center" float="left"> 
-            <div class="Image">
-                <img src="img/erin-portfolio.jpg" alt="erin-portfolio" width="420" height="600">   
-            </div>
-            <div class="text">
+        <div class="row align-items-center"> 
+            <div class="col-md-4">
+                <img src="img/erin-portfolio.jpg" alt="erin-portfolio" class="img-fluid">
+                </div>
+            <div class="col-md-8">
                 <h2>Hello, my name is Erin Sjostedt.</h2>
                 <p>I am a passionate photojournalist and reporter based out of College Park, MD. I am currently obtaining my bachelors in Journalism from the University of Maryland, and I am also working on photography and reporting freelance! I am from all over, as a grew up in a military family, but everywhere I go I find a new passion for storytelling and spreading kindness. Everyone has a story to tell, whether you think it is improtant or not. I am a hard worker and a team player, so please let me help you tell your story. Reach out for anything using the contact below!</p>
             </div>  
@@ -44,44 +44,81 @@
         
     </section>
 
-    <section id="about" class="about">
-        <div class="about-content">
-            <img src="placeholder-about.jpg" alt="About Image Placeholder">
-            <p style="color: black;">[Bio will be inserted here]</p>
-        </div>
-    </section>
-
     <section id="photography" class="portfolio">
         <h2>Photography Portfolio</h2>
-        <div class="portfolio-grid">
-            <img src="portfolio-project1.jpg" alt="portfolio-project1" width="450" height="600">
-            <img src="portfolio-project2.jpg" alt="portfolio-project2" width="450" height="600">
-            <img src="portfolio-project3.jpg" alt="portfolio-project3" width="450" height="600">
-            <img src="portfolio-project4.jpg" alt="portfolio-project4" width="450" height="600">
-            <img src="portfolio-project5.jpg" alt="portfolio-project5" width="450" height="600">
-            <img src="portfolio-project6.jpg" alt="portfolio-project6" width="450" height="600">
-            <img src="portfolio-project7.jpg" alt="portfolio-project7" width="450" height="600">
-            <img src="portfolio-project8.jpg" alt="portfolio-project8" width="450" height="600">
-            <img src="portfolio-project9.jpg" alt="portfolio-project9" width="450" height="600">
-            <img src="portfolio-project10.jpg" alt="portfolio-project10" width="450" height="600">
-            <img src="portfolio-project11.jpg" alt="portfolio-project11" width="450" height="600">
-            <img src="portfolio-project12.jpg" alt="portfolio-project12" width="450" height="600">
+        <div class="row">
+            <div class="col-md-6">
+            <img src="img/portfolio-project1.jpg" alt="portfolio-project1" class="img-fluid">
+            </div>
+            
+           <div class="col-md-6">
+            <img src="img/portfolio-project2.jpg" alt="portfolio-project2" class="img-fluid">
+           </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <img src="img/portfolio-project3.jpg" alt="portfolio-project3" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <img src="img/portfolio-project4.jpg" alt="portfolio-project4" class="img-fluid">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/portfolio-project5.jpg" alt="portfolio-project5" class="img-fluid"> 
+            </div>
+            <div class="col-md-6">
+                <img src="img/portfolio-project6.jpg" alt="portfolio-project6" class="img-fluid">
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><img src="img/portfolio-project7.jpg" alt="portfolio-project7" class="img-fluid">
+            </div>
+            <div class="col-md-6"><img src="img/portfolio-project8.jpg" alt="portfolio-project8" class="img-fluid">
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><img src="img/portfolio-project9.jpg" alt="portfolio-project9" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <img src="img/portfolio-project10.jpg" alt="portfolio-project10" class="img-fluid">
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><img src="img/portfolio-project11.jpg" alt="portfolio-project11" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <img src="img/portfolio-project12.jpg" alt="portfolio-project12" class="img-fluid">
+            </div>
         </div>
     </section>
 
     <section id="published-works" class="portfolio"> 
-        <h2>Published Works</h2>
+        <strong><h2>Published Works</h2></strong>
         <div class="portfolio-grid"> 
-
+            <p>The Diamondback:</p><li>https://dbknews.com/2024/10/07/umd-metro-discount-program/</li>
         </div> 
     </section>
 
-        
+    
+
+    
+<section id="resume" class="portfolio">
+    <strong><h2>Resume</h2></strong>
+    <div class="row">
+    <div class="col-md-6"><img src="img/ErinSjostedtResume-portfolio.jpg" alt="ErinSjostedtResume-portfolio" class="img-fluid">
+    </div>
+    <div class="col-md-6"><img src="img/ErinSjostedtResume-portfolio2.jpg" alt="ErinSjostedtResume-portfolio2" class="img-fluid">
+    </div>
+</div> 
 
 
     <section id="contact" class="contact">
         <h2>Contact</h2>
-        <form action="#" method="POST">
+        <form action="mailto:erinsjo@terpmail.umd.edu" method="POST">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
 
@@ -98,7 +135,7 @@
         </form>
         <div class="social-media">
             <a href="https://www.instagram.com/erin.sjostedt.photo" target="_blank">Instagram</a>
-            <a href="https://www.linkedin.com/in/Erin-Sjostedt" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/erin-sjostedt-6a8459275/" target="_blank">LinkedIn</a>
             <a href="https://twitter.com/erin_sjostedt" target="_blank">X</a>
         </div>
     </section>
