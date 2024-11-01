@@ -1,0 +1,78 @@
+header {
+    background-color: #11151c;
+    font-family: 'Figtree', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #fefefe;
+}
+
+.container {
+    width: 45%;
+    color: #11151c
+}
+
+.container p {
+    color: #11151c
+}
+body{
+    font-family: "Figtree";
+    font-size: 14px;
+    color: #11151c;
+}
+
+p{
+    color: #fefefe;
+}
+
+span{
+    color:#fefefe
+}
+
+.container-fluid p {
+    color:#11151c
+}
+.container-fluid {
+    margin: 0%;
+    font-size: .8em;
+    padding-top: 20px;
+}
+
+h4 {
+    text-align: center;
+    color:#fefefe;
+    font-family: 'Figtree';
+}
+
+header img,
+.chart img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1{
+    color: #fefefe;  
+   
+}
+
+h2 {
+    color: #fefefe;
+    font-size: 12px;
+}
+h3 {
+    margin-top: 30px;
+    font-family: 'Prompt', sans-serif; /* I am aware of the error on here, but it shows up as it should in the code and I have tried so many bootstraps to fix it. If I add a comma, it changes the font. If I take the comma away, its an error. Lose/Lose so I figured I'd leave it in the state that looks best. Hopefully not an issue for you. */
+    font-size: 20px;
+}
+.row p{
+    color:#fefefe;
+    text-align: center;
+    font-family: "Figtree";
+}
+.row {
+    background-color: #11151c;
+    padding-bottom: 40px;
+}
+.col-md-7 {
+    padding-top: 30px;
+}
