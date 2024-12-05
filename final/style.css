@@ -1,0 +1,30 @@
+
+.container {
+        width: 45%;
+        color: #11151c
+    }
+  
+header {
+   
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+body {
+    background-color: #3e9761;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body p {
+    color: aliceblue;
+}
+
+
+h2 {
+    color:aliceblue
+}
+
+h2 {
+    font-family:Verdana, Tahoma, serif;
+}
